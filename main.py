@@ -102,8 +102,8 @@ while True:
 
                 while 1:
                     Payment_account = input('Введите расчётный счёт: ')
-                    if len(Payment_account) == 20 and
-                    Payment_account.isdigit():
+                    if (len(Payment_account) == 20 and
+                            Payment_account.isdigit()):
                         break
                     print('Расчётный счёт должен состоять из 20-и цифр.')
                 Bank_name = input('Введите название банка: ')
